@@ -1,7 +1,7 @@
 import json
 from os import path, makedirs
 
-_default_dir = path.expanduser('~/.config/gspread_pandas')
+_default_dir = path.expanduser('')
 _default_file = 'google_secret.json'
 
 def ensure_path(pth):
